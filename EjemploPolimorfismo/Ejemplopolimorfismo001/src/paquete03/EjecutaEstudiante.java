@@ -23,7 +23,7 @@ public class EjecutaEstudiante {
         double costoAsig;
         int numeroAsigs;
         int tipoEstudiante;
-        String continuar;
+        String continuar ;
 
         // b. Incio ciclo repetitivo que permite generar objetos de tipo
         // EstudiantePresencial y EstudianteDistancia hasta que el usaurio
@@ -148,7 +148,7 @@ public class EjecutaEstudiante {
 
             // se captura el valor ingresado por el usuario para la variable 
             // continuar
-            continuar = entrada.nextLine();
+            continuar = entrada.nextLine().toUpperCase();
             // se pregunta si el valor continuar es igual al valor "S", se sigue en 
             // ciclo repetitivo; si el valor es distinto de "S", se sale del ciclo
             // repetitivo
